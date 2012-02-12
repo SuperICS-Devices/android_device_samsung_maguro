@@ -10,6 +10,9 @@ $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
+#test in ICS-RC
+PRODUCT_PACKAGES += \
+    ROMControl
 
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/tuna
