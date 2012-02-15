@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo team_maguro-userdebug
 add_lunch_combo team_maguro-eng
+add_lunch_combo team_maguro-userdebug
