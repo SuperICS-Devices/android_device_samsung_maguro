@@ -4,7 +4,8 @@ $(call inherit-product, vendor/osr/config/gsm.mk)
 # Release name
 PRODUCT_RELEASE_NAME := GNexus
 
-# Inherit some common CM stuff.
+$(call inherit-product, vendor/osr/config/asian.mk)
+
 $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 
 # Inherit device configuration
