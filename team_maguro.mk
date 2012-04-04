@@ -18,6 +18,10 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 PRODUCT_PACKAGES += \
     ROMControl
 
+#Add bootanimation SuperOSR
+PRODUCT_COPY_FILES += \
+vendor/osr/prebuilt/bootanimation.hdpi.zip:system/media/bootanimation.zip
+
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/tuna
 PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/maguro
