@@ -20,7 +20,7 @@ PRODUCT_PACKAGES += \
 
 #Add bootanimation SuperOSR
 PRODUCT_COPY_FILES += \
-vendor/osr/prebuilt/bootanimation.hdpi.zip:system/media/bootanimation.zip
+device/samsung/maguro/bootanimation.zip:system/media/bootanimation.zip
 
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/tuna
