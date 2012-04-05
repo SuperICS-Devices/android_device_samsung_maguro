@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/team_maguro.mk
+    $(LOCAL_DIR)/osr_maguro.mk

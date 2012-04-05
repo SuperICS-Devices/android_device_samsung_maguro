@@ -28,7 +28,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/maguro
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
-PRODUCT_NAME := team_maguro
+PRODUCT_NAME := osr_maguro
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
