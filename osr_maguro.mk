@@ -1,15 +1,15 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/osr/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GNexus
+PRODUCT_VERSION_MAINTENANCE := 0
 
 # Boot animation	
 TARGET_BOOTANIMATION_NAME := vertical-720x1280
 
-$(call inherit-product, vendor/osr/config/asian.mk)
+$(call inherit-product, vendor/osr/products/asian.mk)
 
-$(call inherit-product, vendor/osr/config/common_full_phone.mk)
+$(call inherit-product, vendor/osr/products/high_telephony_device.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
@@ -37,10 +37,10 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GNexus/maguro:4.0.4/IMM76D/299849:user/release-keys" PRIVATE_BUILD_DESC="GNexus-user 4.0.4 IMM76D 299849 release-keys"
 
 # Inherit drm blobs
--include vendor/osr/config/common_drm.mk
+-include vendor/osr/products/drm.mk
 
 # Inherit Facelock blobs
--include vendor/osr/config/common_facelock.mk
+-include vendor/osr/products/facelock.mk
 
 # Inherit Gapps blobs
--include vendor/osr/config/common_gapps.mk
+-include vendor/osr/products/common_gapps.mk
