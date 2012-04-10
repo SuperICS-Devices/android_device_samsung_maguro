@@ -9,6 +9,8 @@ TARGET_BOOTANIMATION_NAME := vertical-720x1280
 
 $(call inherit-product, vendor/osr/products/asian.mk)
 
+$(call inherit-product, vendor/osr/products/xhdpi.mk)
+
 $(call inherit-product, vendor/osr/products/high_telephony_device.mk)
 
 # Inherit device configuration
@@ -17,10 +19,6 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 #test in ICS-RC
 PRODUCT_PACKAGES += \
     ROMControl
-
-#Add bootanimation SuperOSR
-PRODUCT_COPY_FILES += \
-device/samsung/maguro/bootanimation.zip:system/media/bootanimation.zip
 
 # Tuna overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/tuna
