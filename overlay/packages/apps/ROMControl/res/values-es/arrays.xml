@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-	<string-array name="available_toggles_entries">
+	<string-array name="available_toggles_entries" translatable="false">
 		<item>ROTATE</item>
 		<item>BT</item>
 		<item>GPS</item>
@@ -17,17 +16,17 @@
 	</string-array>
 
 	<string-array name="available_toggles_values">
-		<item>Auto-rotate</item>
+		<item>Rotación</item>
 		<item>BT</item>
 		<item>GPS</item>
 		<item>Wi-Fi</item>
-		<item>Airplane mode</item>
-		<item>Vibrate</item>
-		<item>Silent</item>
-		<item>Torch</item>
-		<item>Sync</item>
-		<item>Tethering (AP)</item>
-		<item>Data</item>
+		<item>Modo avión</item>
+		<item>Vibración</item>
+		<item>Silencio</item>
+		<item>Linterna</item>
+		<item>Sincronización</item>
+		<item>Zona Wifi portátil</item>
+		<item>Datos</item>
 		<item>2G</item>
 	</string-array>
 </resources>
