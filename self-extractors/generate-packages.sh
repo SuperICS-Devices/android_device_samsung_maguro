@@ -14,12 +14,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# 155376 = IRK28C
-# 156135 = IRK32
-# 186921 = IRK77
-# 213821 = ICL26
-ZIP=yakju-ota-213821.zip
-BUILD=icl26
+# 223971 = ITL41D
+# 228551 = ITL41F
+# 236517 = IML70C
+# 237179 = IML73
+# 237867 = IML74B
+# 238432 = IML74E
+# 238649 = IML74G
+# 239410 = IML74K
+# 257829 = IMM30B
+# 262866 = IMM30D
+# 299849 = IMM76D
+# end ics-mr1
+BRANCH=ics-mr1
+if test $BRANCH=ics-mr1
+then
+  ZIP=yakju-ota-299849.zip
+  BUILD=imm76d
+fi # ics-mr1
 ROOTDEVICE=maguro
 DEVICE=maguro
 MANUFACTURER=samsung

@@ -11,6 +11,8 @@ $(call inherit-product, vendor/osr/products/asian.mk)
 
 $(call inherit-product, vendor/osr/products/dspmanager.mk)
 
+$(call inherit-product, vendor/osr/products/nfc_enhanced.mk)
+
 $(call inherit-product, vendor/osr/products/xhdpi.mk)
 
 $(call inherit-product, vendor/osr/products/high_telephony_device.mk)
