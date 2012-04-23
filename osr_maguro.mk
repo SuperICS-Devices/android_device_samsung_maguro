@@ -39,7 +39,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GNexus/maguro:4.0.4/IMM76D/299849:user/release-keys" PRIVATE_BUILD_DESC="GNexus-user 4.0.4 IMM76D 299849 release-keys"
 
 # Inherit drm blobs
--include vendor/osr/products/drm.mk
+#-include vendor/osr/products/drm.mk
 
 # Inherit Facelock blobs
 -include vendor/osr/products/facelock.mk
@@ -47,4 +47,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GN
 VENDOR_COPY_USER_DATA := false
 VENDOR_WIPE_USER_DATA := false
 
-PRODUCT_LOCALES := es_ES fr_FR it_IT de_DE nl_NL cs_CZ pl_PL ja_JP zh_TW zh_CN ru_RU ko_KR nb_NO en_US da_DK el_GR tr_TR pt_PT pt_BR rm_CH sv_SE bg_BG ca_ES en_GB fi_FI hi_IN hr_HR hu_HU in_ID iw_IL lt_LT lv_LV ro_RO sk_SK sl_SI sr_RS uk_UA vi_VN tl_PH ar_EG fa_IR th_TH sw_TZ ms_MY af_ZA zu_ZA am_ET hi_IN
+PRODUCT_LOCALES := es_ES fr_FR it_IT de_DE nl_NL pl_PL ja_JP zh_TW zh_CN ru_RU ko_KR en_US pt_PT ca_ES en_GB ro_RO
