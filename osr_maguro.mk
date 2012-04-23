@@ -44,9 +44,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GN
 # Inherit Facelock blobs
 -include vendor/osr/products/facelock.mk
 
-# Inherit Gapps blobs
--include vendor/osr/products/common_gapps.mk
-
 VENDOR_COPY_USER_DATA := false
 VENDOR_WIPE_USER_DATA := false
 
