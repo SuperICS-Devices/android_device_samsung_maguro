@@ -7,7 +7,7 @@ PRODUCT_VERSION_MAINTENANCE := 8
 # Boot animation	
 TARGET_BOOTANIMATION_NAME := vertical-720x1280
 
-$(call inherit-product, vendor/osr/products/asian.mk)
+#$(call inherit-product, vendor/osr/products/asian.mk)
 
 $(call inherit-product, vendor/osr/products/dspmanager.mk)
 
@@ -47,4 +47,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GN
 VENDOR_COPY_USER_DATA := false
 VENDOR_WIPE_USER_DATA := false
 
-PRODUCT_LOCALES := es_ES fr_FR it_IT de_DE nl_NL pl_PL ja_JP zh_TW zh_CN ru_RU ko_KR en_US pt_PT ca_ES en_GB ro_RO
+PRODUCT_LOCALES := es_ES fr_FR it_IT de_DE en_US pt_PT ca_ES en_GB
+#PRODUCT_LOCALES := es_ES fr_FR it_IT de_DE nl_NL pl_PL ja_JP zh_TW zh_CN ru_RU ko_KR en_US pt_PT ca_ES en_GB ro_RO
