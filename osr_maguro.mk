@@ -24,10 +24,6 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 PRODUCT_PACKAGES += \
     ROMControl
 
-# Tuna overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/tuna
-PRODUCT_PACKAGE_OVERLAYS += vendor/osr/overlay/maguro
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
 PRODUCT_NAME := osr_maguro
@@ -43,6 +39,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Gnexus BUILD_FINGERPRINT="google/GN
 
 # Inherit Facelock blobs
 -include vendor/osr/products/facelock.mk
+
+# T-Mobile theme engine
+include vendor/osr/products/themes_common.mk
 
 VENDOR_COPY_USER_DATA := false
 VENDOR_WIPE_USER_DATA := false
