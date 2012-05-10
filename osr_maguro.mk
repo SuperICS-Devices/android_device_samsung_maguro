@@ -22,6 +22,7 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
 #test in ICS-RC
 PRODUCT_PACKAGES += \
+    ContactsWidgets \
     ROMControl
 
 ## Device identifier. This must come after all inclusions
