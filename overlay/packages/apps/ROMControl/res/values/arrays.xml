@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
 	<string-array name="available_toggles_entries">
 		<item>ROTATE</item>
 		<item>BT</item>
@@ -14,7 +13,6 @@
 		<item>AP</item>
 		<item>DATA</item>
 		<item>2G</item>
-        	<item>FCHARGE</item>
 	</string-array>
 
 	<string-array name="available_toggles_values">
@@ -30,6 +28,5 @@
 		<item>Tethering (AP)</item>
 		<item>Data</item>
 		<item>2G</item>
-        	<item>Fast charge</item>
 	</string-array>
 </resources>
