@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="available_toggles_entries" translatable="false">
+		<item>ROTATE</item>
+		<item>BT</item>
+		<item>GPS</item>
+		<item>WIFI</item>
+		<item>AIRPLANE_MODE</item>
+		<item>VIBRATE</item>
+		<item>SILENT</item>
+		<item>TORCH</item>
+		<item>SYNC</item>
+		<item>AP</item>
+		<item>DATA</item>
+		<item>2G</item>
+	</string-array>
+
+	<string-array name="available_toggles_values">
+		<item>Rotación</item>
+		<item>BT</item>
+		<item>GPS</item>
+		<item>Wi-Fi</item>
+		<item>Modo avión</item>
+		<item>Vibración</item>
+		<item>Silencio</item>
+		<item>Linterna</item>
+		<item>Sincronización</item>
+		<item>Zona Wifi portátil</item>
+		<item>Datos</item>
+		<item>2G</item>
+	</string-array>
+</resources>
